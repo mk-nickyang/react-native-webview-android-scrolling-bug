@@ -26,7 +26,7 @@ function WebviewScreen() {
             justifyContent: 'center',
           }}
         >
-          <Text>Header</Text>
+          <Text style={{ fontWeight: 'bold', color: 'white' }}>Header</Text>
         </View>
       </Animated.View>
 
@@ -63,7 +63,7 @@ function WebviewScreen() {
               justifyContent: 'center',
             }}
           >
-            <Text>Body</Text>
+            <Text style={{ fontWeight: 'bold', color: 'white' }}>Body</Text>
           </View>
         </Animated.ScrollView>
       </View>
